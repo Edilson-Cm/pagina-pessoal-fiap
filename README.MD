@@ -1,6 +1,7 @@
 ## Pagina pessoal -Fiap
 
-Projeto: Centralizar informaçoes academicas de minha trajeotria pessoal de Desenvolvedor.
+## Projeto:
+ Centralizar informaçoes academicas de minha trajetoria pessoal de Desenvolvedor.
 
 ## Objetivo
 Reunir informaçoes da minha trajetoria academica no desenvolvimento de sistemas, servindo como base de consulta para pessoas futuras.
@@ -14,6 +15,7 @@ Paelta de cores:
  Texto: #1A2E05 
  Accent: #FB7185
  Radius: 18px
+
 
  ## Informaçoes pessoais:
 Nome: Edilson Condori Mollo
