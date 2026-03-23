@@ -14,7 +14,7 @@ Paelta de cores:
  Background: #F7FEE7 
  Texto: #1A2E05 
  Accent: #FB7185
- Radius: 18px
+ Radius: 12px
 
 
  ## Informaçoes pessoais:
@@ -29,3 +29,5 @@ Tecnologias:
     -Git 
     -Github
     -Css3
+
+# Projeto em desenvolvimento..
