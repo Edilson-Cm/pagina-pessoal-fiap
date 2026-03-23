@@ -7,7 +7,7 @@
 Reunir informaçoes da minha trajetoria academica no desenvolvimento de sistemas, servindo como base de consulta para pessoas futuras.
 
 ## Conceito visual
-Paelta de cores: 
+Paleta de cores: 
 
  Primaria: #4D7C0F 
  Secundaria: #388DF8 
