@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7FEE7; 
+    color: #1A2E05;            
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4D7C0F; 
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;       
+    gap: 15px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area img {
+    border-radius: 8px;
+    width: 50px;
+    border: 2px solid white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #4D7C0F;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.btn-contato {
+    display: inline-block;
+    background: white;
+    color: #4D7C0F;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.bloco-branco {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+h2 {
+    color: #4D7C0F;
+    border-left: 6px solid #FB7185;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+
+.cards-grid {
+    display: flex;      
+    gap: 20px;        
+    flex-wrap: wrap;     
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    flex: 1;             
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.card ul {
+    padding-left: 20px; 
+    margin-top: 10px;
+}
+
+
+.card.hard { border-top: 5px solid #4D7C0F; } /* Verde */
+.card.soft { border-top: 5px solid #FB7185; } /* Rosa */
+.card.tech { border-top: 5px solid #38BDF8; } /* Azul */
+
+.detalhes-habilidades {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #4D7C0F;
+    margin-top: 10px;
+}
+
+.detalhes-habilidades summary {
+    font-weight: bold;
+    color: #4D7C0F;
+}
+
+.foto-perfil {
+    border-radius: 12px;
+    width: 180px;
+}
+
+.conteudo-flex {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background: #4D7C0F;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.contato-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contato-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.sociais-lista {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sociais-lista a {
+    background: #388DF8; 
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #1A2E05; 
+    color: white;
+    margin-top: 40px;
+}
+
+.lista-tags {
+    list-style: none; 
+    padding: 0;
+    margin-top: 15px;
+    display: flex; 
+    gap: 10px;
+}
+
+.lista-tags li {
+    background-color: #388DF8; 
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.contato {
+    padding: 60px 20px;
+    background-color: #F7FEE7; 
+    color: #1A2E05;
+}
+
+.titulo-contato {
+    color: #4D7C0F;
+    border-left: 5px solid #FB7185; 
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.contato-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.contato-form, .contato-info {
+    background-color: #F7FEE7; 
+    padding: 30px;
+    border-radius: 12px; 
+    border: 2px solid #388DF8; 
+    flex: 1;
+    max-width: 500px;
+}
+
+.contato-form h3, .contato-info h3 {
+    color: #4D7C0F; 
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    color: #1A2E05; 
+    margin-bottom: 8px;
+}
+
+.input-group input, .input-group textarea {
+    padding: 12px;
+    border: 2px solid #388DF8; 
+    border-radius: 12px;
+    outline: none;
+    background-color: #F7FEE7;
+    color: #1A2E05;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #FB7185; 
+}
+
+
+.btn-enviar {
+    width: 100%;
+    padding: 15px;
+    background-color: #4D7C0F; 
+    color: #F7FEE7;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #388DF8; 
+}
+
+.badge {
+    background-color: #388DF8;  
+    color: #F7FEE7; 
+    padding: 8px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.badge:hover {
+    background-color: #FB7185; 
+}
