@@ -1,0 +1,10 @@
+:root {
+    --cor-primaria: #4D7C0F;
+    --cor-secundaria: #388DF8;
+    --cor-accent: #FB7185;
+    --cor-background: #F7FEE7;
+    --cor-texto: #1A2E05;
+    --cor-footer: #1A2E05;
+    --radius: 12px;
+    --fonte-principal: 'Segoe UI', Tahoma, sans-serif;
+}

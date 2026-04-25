@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7FEE7;
+    color: #1A2E05;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #4D7C0F;
+    border-left: 6px solid #FB7185;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.bloco-branco {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+#habilidades {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,22 @@
+.foto-perfil {
+    border-radius: 12px;
+    width: 180px;
+}
+
+.conteudo-flex {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .conteudo-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 140px;
+    }
+}

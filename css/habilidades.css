@@ -1,0 +1,47 @@
+.cards-grid {
+    display: flex;      
+    gap: 20px;        
+    flex-wrap: wrap;     
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    flex: 1;             
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.card ul {
+    padding-left: 20px; 
+    margin-top: 10px;
+}
+
+
+.card.hard { border-top: 5px solid #4D7C0F; } /* Verde */
+.card.soft { border-top: 5px solid #FB7185; } /* Rosa */
+.card.tech { border-top: 5px solid #38BDF8; } /* Azul */
+
+.detalhes-habilidades {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #4D7C0F;
+    margin-top: 10px;
+}
+
+.detalhes-habilidades summary {
+    font-weight: bold;
+    color: #4D7C0F;
+}
+@media (max-width: 768px) {
+    .cards-grid {
+        flex-direction: column;
+    }
+
+    .card {
+        min-width: unset;
+        width: 100%;
+    }
+}

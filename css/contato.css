@@ -1,0 +1,100 @@
+.contato {
+    padding: 60px 20px;
+    background-color: #F7FEE7; 
+    color: #1A2E05;
+}
+
+.titulo-contato {
+    color: #4D7C0F;
+    border-left: 5px solid #FB7185; 
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.contato-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.contato-form, .contato-info {
+    background-color: #ffff; 
+    padding: 30px;
+    border-radius: 12px; 
+    border: 2px solid #388DF8; 
+    flex: 1;
+    max-width: 500px;
+}
+
+.contato-form h3, .contato-info h3 {
+    color: #4D7C0F; 
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    color: #1A2E05; 
+    margin-bottom: 8px;
+}
+
+.input-group input, .input-group textarea {
+    padding: 12px;
+    border: 2px solid #388DF8; 
+    border-radius: 12px;
+    outline: none;
+    background-color: #F7FEE7;
+    color: #1A2E05;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #FB7185; 
+}
+
+
+.btn-enviar {
+    width: 100%;
+    padding: 15px;
+    background-color: #4D7C0F; 
+    color: #F7FEE7;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #388DF8; 
+}
+
+.badge {
+    background-color: #388DF8;  
+    color: #F7FEE7; 
+    padding: 8px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.badge:hover {
+    background-color: #FB7185; 
+}
+@media (max-width: 768px) {
+    .contato-container {
+        flex-direction: column;
+    }
+
+    .contato-form,
+    .contato-info {
+        max-width: 100%;
+    }
+}
