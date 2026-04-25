@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Edilson Condori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <img src="https://ui-avatars.com/api/?background=4D7C0F&color=white&name=Edilson+Condori" alt="Logo EC">
+            <span>Portifolio</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#objetivo">Objetivo Profissional</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Edilson Condori</h1>
+        <p>Estudante de analise Desenvolvimento de Sistema - Fiap</p>
+        <div class="botoes">
+            <a href="google.com/?hl=pt_BR" class="btn-contato">Conheça Mais Contato</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="sobre-mim" class="bloco-branco">
+            <h2>Sobre mim</h2>
+            <div class="conteudo-flex">
+                <div class="texto">
+                    <p>Olá sou Estudante de Desenvolvimento de Sistemas na Fiap, tenho Experiencias basicas com logica de programação e pretendo me especializar em Back end utilizando a linguagem Java.</p>
+                </div>
+                <img src="img/myfoto.jpg" alt="Foto de Edilson" class="foto-perfil">
+            </div>
+        </section>
+
+        <section id="objetivo" class="bloco-branco">
+            <h2>Objetivo Profissional</h2>
+            <p>Me tornar um programador especializado em back end usando java, com o proposito de conquistar o certificado OCM da oracle JAVA</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="cards-grid">
+                <div class="card hard">
+                    <h3>Hard Skils</h3>
+                    <ul>
+                        <li>Hardware em Pcs e montagens</li>
+                        <li>Conceitos de logica de programação</li>
+                        <li>Desenvolvimento Back end (Estudante de java)</li>
+                    </ul>
+                </div>
+                <div class="card soft">
+                    <h3>Soft Skils</h3>
+                    <ul>
+                        <li>Adaptabilidade</li>
+                        <li>Organização</li>
+                        <li>Resolução de problemas</li>
+                    </ul>
+                </div>
+                <div class="card tech">
+                    <h3>Tecnologias</h3>
+                    <ul>
+                        <li>Montagem e manutenção de Hardware</li>
+                        <li>InteliJI</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+                </div>
+            </div>
+
+            <details class="detalhes-habilidades">
+                <summary>Detalhes das Habilidades (Clique para ver mais)</summary>
+                <p>Tenho experiencia pratica em montagens de Computadores do zero Escolha de componentes compativeis e manutenção preventiva. Tambem tenho conhecimento basico em Java e Python no uso do VsCode e InteliJI.</p>
+            </details>
+        </section>
+
+        <section id="formacao" class="bloco-branco">
+            <h2>Formação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Periodo</th>
+                        <th>Curso</th>
+                        <th>Instituição</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026 - Atual</td>
+                        <td>Análise e Desenvolvimento de Sistemas</td>
+                        <td>FIAP</td>
+                        <td>Cursando o 1º semestre de ADS.</td>
+                    </tr>
+                    <tr>
+                        <td>2024 - 2026</td>
+                        <td>Montagem e manutenção de PCs</td>
+                        <td>Autodidata</td>
+                        <td>Estudo prático de hardwares e periféricos.</td>
+                    </tr>
+                    <tr>
+                        <td>2023 - 2025</td>
+                        <td>Ensino medio</td>
+                        <td>E.E. Capitão Pedro Monteiro do Amaral</td>
+                        <td>Concluído</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="projetos" class="bloco-branco">
+            <h2>Experiencias e Projetos</h2>
+            <h3>Criação de sites personalizados</h3>
+            <p>Textos, informação e organização utilizados em html, com customização e personalização em CSS</p>
+            <ul class="lista-tags">
+                <li>html</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="contatos">
+            <h2 class="titulo-contato">Contato</h2>
+
+        <div class="contato-container">
+    <form class="contato-form">
+        <h3>Envie sua mensagem</h3>
+        
+        <div class="input-group">
+            <label for="nome">Nome *</label>
+            <input type="text" id="nome" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="input-group">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" placeholder="seu@email.com" required>
+        </div>
+
+        <div class="input-group">
+            <label for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+    </form>
+
+    <div class="contato-info">
+        <div class="info-item">
+            <h3>E-mail</h3>
+            <p>EdilsonCondori08@gmail.com</p>
+        </div>
+
+        <div class="info-item">
+            <h3>Redes Sociais</h3>
+            <div class="social-links">
+                <a href="https://github.com/JonataJKL" target="_blank" class="badge">GitHub</a>
+                <a href="https://linkedin.com/in/edilson-condori-8728393b3/" target="_blank" class="badge">LinkedIn</a>
+                <a href="https://www.instagram.com/jkl0_82/" target="_blank" class="badge">Instagram</a>
+            </div>
+        </div>
+    </div>
+    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Edilson Condori - Todos os direitos reservados</p>
+        <p>Desenvolvido com monster branco e fé..</p>
+    </footer>
+
+</body>
+</html>
