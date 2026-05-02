@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: #F7FEE7;
-    color: #1A2E05;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
     line-height: 1.6;
 }
 
 h2 {
-    color: #4D7C0F;
-    border-left: 6px solid #FB7185;
+    color: var(--cor-primaria);
+    border-left: 6px solid var(--cor-accent);
     padding-left: 15px;
     margin-bottom: 20px;
 }
@@ -27,10 +27,11 @@ main {
 .bloco-branco {
     background: white;
     padding: 25px;
-    border-radius: 12px;
+    border-radius: var(--radius);
     margin-bottom: 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
+
 #habilidades {
     margin-bottom: 25px;
 }

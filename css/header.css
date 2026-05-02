@@ -1,10 +1,10 @@
 header {
-    background-color: #4D7C0F; 
+    background-color: var(--cor-primaria);
     color: white;
     padding: 1.5rem;
     display: flex;
-    flex-direction: column;    
-    align-items: center;       
+    flex-direction: column;
+    align-items: center;
     gap: 15px;
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 .logo-area img {
-    border-radius: 12px;
+    border-radius: var(--radius);
     width: 50px;
     border: 2px solid white;
 }
@@ -33,7 +33,7 @@ nav a {
 }
 
 .hero {
-    background-color: #4D7C0F;
+    background-color: var(--cor-primaria);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -42,15 +42,14 @@ nav a {
 .btn-contato {
     display: inline-block;
     background: white;
-    color: #4D7C0F;
+    color: var(--cor-primaria);
     padding: 10px 20px;
-    border-radius: 12px;
+    border-radius: var(--radius);
     text-decoration: none;
     font-weight: bold;
     margin-top: 15px;
 }
 
-/* Menu hambúrguer - botão */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -69,7 +68,6 @@ nav a {
     border-radius: 3px;
 }
 
-/* Celular */
 @media (max-width: 768px) {
     header {
         flex-direction: row;

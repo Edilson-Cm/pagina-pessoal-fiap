@@ -1,40 +1,41 @@
 .cards-grid {
-    display: flex;      
-    gap: 20px;        
-    flex-wrap: wrap;     
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
     background: white;
     padding: 40px;
-    border-radius: 12px;
-    flex: 1;             
+    border-radius: var(--radius);
+    flex: 1;
     min-width: 250px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
+
 .card ul {
-    padding-left: 20px; 
+    padding-left: 20px;
     margin-top: 10px;
 }
 
-
-.card.hard { border-top: 5px solid #4D7C0F; } /* Verde */
-.card.soft { border-top: 5px solid #FB7185; } /* Rosa */
-.card.tech { border-top: 5px solid #38BDF8; } /* Azul */
+.card.hard { border-top: 5px solid var(--cor-primaria); }
+.card.soft { border-top: 5px solid var(--cor-accent); }
+.card.tech { border-top: 5px solid var(--cor-secundaria); }
 
 .detalhes-habilidades {
     background: white;
     padding: 15px;
-    border-radius: 12px;
+    border-radius: var(--radius);
     cursor: pointer;
-    border: 1px solid #4D7C0F;
+    border: 1px solid var(--cor-primaria);
     margin-top: 10px;
 }
 
 .detalhes-habilidades summary {
     font-weight: bold;
-    color: #4D7C0F;
+    color: var(--cor-primaria);
 }
+
 @media (max-width: 768px) {
     .cards-grid {
         flex-direction: column;

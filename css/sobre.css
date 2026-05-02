@@ -1,5 +1,5 @@
 .foto-perfil {
-    border-radius: 12px;
+    border-radius: var(--radius);
     width: 180px;
 }
 
@@ -9,6 +9,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 @media (max-width: 768px) {
     .conteudo-flex {
         flex-direction: column;

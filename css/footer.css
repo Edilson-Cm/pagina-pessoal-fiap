@@ -1,7 +1,7 @@
 footer {
     text-align: center;
     padding: 40px;
-    background: #1A2E05; 
+    background: var(--cor-footer);
     color: white;
     margin-top: 40px;
 }

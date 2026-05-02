@@ -1,13 +1,13 @@
 .lista-tags {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin-top: 15px;
-    display: flex; 
+    display: flex;
     gap: 10px;
 }
 
 .lista-tags li {
-    background-color: #388DF8; 
+    background-color: var(--cor-secundaria);
     color: white;
     padding: 5px 15px;
     border-radius: 20px;

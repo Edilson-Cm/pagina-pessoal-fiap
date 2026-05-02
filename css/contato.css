@@ -1,12 +1,12 @@
 .contato {
     padding: 60px 20px;
-    background-color: #F7FEE7; 
-    color: #1A2E05;
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
 }
 
 .titulo-contato {
-    color: #4D7C0F;
-    border-left: 5px solid #FB7185; 
+    color: var(--cor-primaria);
+    border-left: 5px solid var(--cor-accent);
     padding-left: 15px;
     margin-bottom: 30px;
 }
@@ -18,18 +18,17 @@
     flex-wrap: wrap;
 }
 
-
 .contato-form, .contato-info {
-    background-color: #ffff; 
+    background-color: white;
     padding: 30px;
-    border-radius: 12px; 
-    border: 2px solid #388DF8; 
+    border-radius: var(--radius);
+    border: 2px solid var(--cor-secundaria);
     flex: 1;
     max-width: 500px;
 }
 
 .contato-form h3, .contato-info h3 {
-    color: #4D7C0F; 
+    color: var(--cor-primaria);
     margin-bottom: 20px;
 }
 
@@ -41,53 +40,53 @@
 
 .input-group label {
     font-weight: bold;
-    color: #1A2E05; 
+    color: var(--cor-texto);
     margin-bottom: 8px;
 }
 
 .input-group input, .input-group textarea {
     padding: 12px;
-    border: 2px solid #388DF8; 
-    border-radius: 12px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: var(--radius);
     outline: none;
-    background-color: #F7FEE7;
-    color: #1A2E05;
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
 }
 
 .input-group input:focus, .input-group textarea:focus {
-    border-color: #FB7185; 
+    border-color: var(--cor-accent);
 }
-
 
 .btn-enviar {
     width: 100%;
     padding: 15px;
-    background-color: #4D7C0F; 
-    color: #F7FEE7;
+    background-color: var(--cor-primaria);
+    color: var(--cor-background);
     border: none;
-    border-radius: 12px;
+    border-radius: var(--radius);
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .btn-enviar:hover {
-    background-color: #388DF8; 
+    background-color: var(--cor-secundaria);
 }
 
 .badge {
-    background-color: #388DF8;  
-    color: #F7FEE7; 
+    background-color: var(--cor-secundaria);
+    color: var(--cor-background);
     padding: 8px 18px;
-    border-radius: 12px;
+    border-radius: var(--radius);
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
 }
 
 .badge:hover {
-    background-color: #FB7185; 
+    background-color: var(--cor-accent);
 }
+
 @media (max-width: 768px) {
     .contato-container {
         flex-direction: column;
