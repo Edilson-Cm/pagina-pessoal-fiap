@@ -6,7 +6,6 @@ toggle.addEventListener('click', function () {
     nav.classList.toggle('aberto');
 });
 
-// Botão voltar ao topo
 const btnTopo = document.getElementById('voltarTopo');
 
 window.addEventListener('scroll', function () {
@@ -21,7 +20,7 @@ btnTopo.addEventListener('click', function () {
     window.scrollTo(0, 0);
 });
 
-// Formulário
+
 const form = document.querySelector('.contato-form');
 
 form.addEventListener('submit', function (event) {
@@ -81,7 +80,7 @@ function validarEmail(input) {
 function validarMensagem(input) {
     const valor = input.value.trim();
     if (valor.length < 10) {
-        exibirErro(input, 'Mensagem deve ter pelo menos 10 caracteres');
+        exibirErro(input, 'A Mensagem deve ter pelo menos 10 caracteres');
         return false;
     }
     return true;
