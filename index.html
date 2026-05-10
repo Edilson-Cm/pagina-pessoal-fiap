@@ -153,21 +153,26 @@
         
         <div class="input-group">
             <label for="nome">Nome *</label>
-            <input type="text" id="nome" placeholder="Seu nome completo" required>
+            <input type="text" id="nome" placeholder="Seu nome completo">
         </div>
 
         <div class="input-group">
             <label for="email">E-mail *</label>
-            <input type="email" id="email" placeholder="seu@email.com" required>
+            <input type="email" id="email" placeholder="seu@email.com">
         </div>
 
         <div class="input-group">
             <label for="mensagem">Mensagem *</label>
-            <textarea id="mensagem" placeholder="Digite sua mensagem" rows="5" required></textarea>
+            <textarea id="mensagem" placeholder="Digite sua mensagem" rows="5"></textarea>
         </div>
 
-        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+       <button type="submit" class="btn-enviar">Enviar Mensagem</button>
     </form>
+
+    <div id="mensagem-sucesso" class="mensagem-sucesso">
+        <p>✔ <strong>Mensagem enviada com sucesso!</strong></p>
+        <p id="texto-sucesso"></p>
+    </div>
 
     <div class="contato-info">
         <div class="info-item">
