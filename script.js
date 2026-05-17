@@ -1,4 +1,4 @@
-// Hambúrguer
+
 const toggle = document.getElementById('menuToggle');
 const nav = document.querySelector('nav');
 
