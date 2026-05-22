@@ -36,6 +36,10 @@ main {
     margin-bottom: 25px;
 }
 
+.table-container {
+    overflow-x: auto;
+}
+
 @media (max-width: 768px) {
     main {
         padding: 0 15px;
